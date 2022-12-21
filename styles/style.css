@@ -32,8 +32,8 @@ a {
   background-size: cover;
 
   padding-top: 28px;
-  padding-left: 245px;
-  padding-right: 245px;
+  padding-left: 14.75%;
+  padding-right: 14.75%;
   padding-bottom: 145px;
   width: auto;
 }
@@ -128,11 +128,14 @@ a {
   position: absolute;
   flex-direction: column;
   border: 3px solid #6f6238;
-  bottom: 15px;
-  right: 20px;
-  left: 20px;
-  padding: 35px 46px 35px 35px;
+  bottom: 4.86%;
+  right: 4.86%;
+  left: 4.86%;
+  padding: 7%;
   z-index: 1;
+  max-height: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .trend-card-content-tags {
@@ -148,13 +151,14 @@ a {
 }
 
 .trend-card-header {
+  display: block;
+  font-size: 20px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
   margin-top: 65px;
   padding-left: 14.75%;
   padding-right: 14.75%;
@@ -167,6 +171,7 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-right: 11.5%;
   width: 66.66%;
   max-width: 780px;
 }
@@ -200,7 +205,7 @@ a {
   flex-direction: column;
   position: relative;
   width: 50%;
-  max-width: 347px;
+  max-width: 375px;
 }
 
 .card-tag {
@@ -214,11 +219,12 @@ a {
 .card-tags-list {
   display: flex;
   list-style-type: none;
+  flex-wrap: wrap;
   padding-left: 0px;
   margin: 0px;
 }
 
-.card-tags-list li {
+.card-tags-list li:not(:last-child) {
   margin-right: 20px;
 }
 
