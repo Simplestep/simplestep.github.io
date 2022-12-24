@@ -99,7 +99,7 @@ a {
   width: 100%;
 }
 
-.trend-header {
+.trend-header, .our-goods-header {
   display: flex;
   position: relative;
   justify-content: center;
@@ -159,7 +159,7 @@ a {
 
 .content {
   display: flex;
-  margin-top: 65px;
+  margin-top: 64px;
   padding-left: 14.75%;
   padding-right: 14.75%;
   padding-bottom: 64px;
@@ -294,8 +294,7 @@ a {
   text-transform: uppercase;
 }
 
-.newpost-header::after,
-.trend-header::after {
+.newpost-header::after, .trend-header::after, .our-goods-header::after {
   content: "";
 
   background-color: #e1d9bd;
@@ -549,8 +548,120 @@ a {
   color: #d5c9a9;
 }
 
+.our-goods {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+  padding-left: 14.75%;
+  padding-right: 14.75%;
+  width: 70.5%;
+  max-width: 1660px;
+}
+
+.our-goods-card-container {
+  display: flex;
+  margin-top: 44px;
+}
+
+.our-goods-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 33%;
+  max-width: 345px;
+}
+
+.our-goods-card:not(:first-of-type) {
+  margin-left: 5.55%;
+}
+
+.our-goods-card-image {
+  max-width: 86.4%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.our-goods-card-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+  padding-top: 50px;
+  padding-left: 5.71%;
+  padding-right: 5.71%;
+  padding-bottom: 25px;
+  border: 3px solid #d3c59d;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.our-goods-card-header {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.our-goods-card-info {
+  font-size: 15px;
+  align-items: end;
+}
+
+.our-goods-card-info:hover {
+  text-shadow: 0.3px 0.3px;
+}
+
+.our-goods-extra-info {
+  color: #cabb92;
+}
+
+.our-goods-card-info:hover > .our-goods-extra-info {
+  text-decoration: underline;
+}
+
+.our-goods-price-and-buy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.our-goods-price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.our-goods-discount {
+  font-weight: bold;
+  text-decoration: line-through;
+  font-size: 0.875rem;
+}
+
+.our-goods-price {
+  font-weight: bold;
+  font-size: 1.11rem;
+}
+
+.our-goods-store-botton {
+color: #ffffff;
+background-color: #b59f5b;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 14px;
+padding: 15px 25px;
+border: none;
+}
+
+.our-goods-store-botton:hover {
+  cursor: pointer;
+}
+
 .social {
   display: flex;
+  background-color: #f4f7f6;
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
