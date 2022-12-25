@@ -67,7 +67,7 @@ body {
 }
 
 .news-cards {
-  margin-right: 11.5%;
+  margin-right: 4.87%;
   width: 56.16%;
   max-width: 392px;
 }
@@ -84,6 +84,11 @@ body {
   margin-right: 0px;
 }
 
+.content-image {
+  object-fit: cover;
+  width: 100%;
+  max-width: 392px
+}
 .card-info {
   width: 100%;
   max-width: 392px;
