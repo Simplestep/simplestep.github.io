@@ -685,16 +685,16 @@ border: none;
 }
 
 .twitter {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg);
+  background-image: url(../svg/004-twitter.svg);
   background-position: center 1px;
 }
 
 .pinterest {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg);
+  background-image: url(../svg/001-pinterest.svg);
 }
 
 .trumbl {
-  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
   margin-right: 0px;
 }
 
