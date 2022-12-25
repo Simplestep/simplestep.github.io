@@ -14,8 +14,9 @@ body {
 .header {
   background-image: url("../img/banner-bg-tablet.jpg");
   background-size: cover;
+  background-position: 30% 0%;
   box-sizing: border-box;
-  padding-top: 40px;
+  padding-top: 45px;
   padding-left: 4.55%;
   padding-right: 4.55%;
   padding-bottom: 122px;
@@ -31,4 +32,66 @@ body {
 
   width: 88%;
   max-width: 610px;
+}
+
+.trend-cards-row {
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.trend-card:not(:last-child) {
+  margin-right: 0px;
+}
+
+.trend-card:nth-child(n+3) {
+  margin-top: 3px;
+}
+
+.trend-card:nth-child(2n+1) {
+  margin-right: 3px;
+}
+
+.trend-card {
+  width: 50%;
+  max-width: 382.5px;
+}
+
+.content {
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding-left: 4.55%;
+  padding-right: 4.55%;
+  padding-bottom: 50px;
+  width: 100%;
+  max-width: 768px;
+}
+
+.news-cards {
+  margin-right: 11.5%;
+  width: 56.16%;
+  max-width: 392px;
+}
+
+.card {
+  flex-direction: column;
+  width: 100%;
+  max-width: 392px;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 392px;
+  margin-right: 0px;
+}
+
+.card-info {
+  width: 100%;
+  max-width: 392px;
+}
+
+.right-info {
+  flex-direction: column;
+  align-items: center;
+  max-width: 272px;
+  width: 38.9%;
 }
