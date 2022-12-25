@@ -7,6 +7,10 @@ body {
   display: none;
 }
 
+.hamb-menu {
+  display: flex;
+}
+
 .header {
   background-image: url("../img/banner-bg-tablet.jpg");
   background-size: cover;

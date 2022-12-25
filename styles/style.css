@@ -72,6 +72,10 @@ a {
   display: flex;
 }
 
+.hamb-menu {
+  display: none;
+}
+
 .menu-item {
   margin-right: 35px;
   color: #ffffff;
