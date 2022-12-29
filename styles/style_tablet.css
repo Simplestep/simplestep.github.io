@@ -56,6 +56,10 @@ body {
   max-width: 382.5px;
 }
 
+.trend-card-header {
+  font-size: 17px;
+}
+
 .content {
   box-sizing: border-box;
   margin-top: 50px;
@@ -75,8 +79,15 @@ body {
 .card {
   flex-direction: column;
   width: 100%;
-  max-width: 392px;
+  max-width: 390px;
 }
+
+.card:nth-child(n+2) {
+border-top: 3px solid #eeeeee;
+padding-top: 40px;
+margin-top: 26px;
+}
+
 
 .card-img {
   width: 100%;
@@ -94,9 +105,54 @@ body {
   max-width: 392px;
 }
 
+.card-info-head h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.card-tags {
+  margin-top: 15px;
+}
+
+.card-info-meta {
+  margin-top: 22px;
+}
+
+.card-info-text {
+  margin-top: 27px;
+}
+
 .right-info {
   flex-direction: column;
   align-items: center;
   max-width: 272px;
   width: 38.9%;
+}
+
+.mailing-form {
+  margin-top: 36px;
+}
+
+.article-box {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.our-goods-card-container {
+  flex-wrap: wrap;
+}
+
+.our-goods-card {
+  width: 47.9%;
+  max-width: 335px;
+}
+
+.our-goods-card:nth-child(2n+2){
+  margin-left: 4.2%;
+}
+
+.our-goods-card:nth-child(2n+1) {
+  margin-left: 0%;
 }
