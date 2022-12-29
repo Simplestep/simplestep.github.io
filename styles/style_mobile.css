@@ -1,0 +1,161 @@
+body {
+  width: 100%;
+  max-width: 425px;
+}
+
+.menu {
+  display: none;
+}
+
+.hamb-menu {
+  display: flex;
+}
+
+.header {
+  background-image: url("../img/banner-mobile.jpg");
+  background-size: cover;
+  background-position: 30% 0%;
+  box-sizing: border-box;
+  padding-top: 45px;
+  padding-left: 4.55%;
+  padding-right: 4.55%;
+  padding-bottom: 122px;
+  width: 100%;
+  max-width: 425px;
+}
+
+.message {
+  font-size: 40px;
+  
+  margin-top: 100px;
+  margin-bottom: 0px;
+
+  width: 88%;
+  max-width: 610px;
+}
+
+.trend-cards-row {
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.trend-card:not(:last-child) {
+  margin-right: 0px;
+}
+
+.trend-card:nth-child(n+3) {
+  margin-top: 0px;
+}
+
+.trend-card:nth-child(2n+1) {
+  margin-right: 0px;
+}
+
+.trend-card {
+  width: 100%;
+  max-width: 425px;
+  margin-bottom: 3px;
+}
+
+.trend-card-header {
+  font-size: 17px;
+}
+
+.content {
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  padding-bottom: 50px;
+  width: 91.6%;
+  max-width: 390px;
+}
+
+.news-cards {
+  margin-right: 0%;
+  width: 100%;
+  max-width: 390px;
+}
+
+.card {
+  flex-direction: column;
+  width: 100%;
+  max-width: 390px;
+}
+
+.card:nth-child(n+2) {
+border-top: 3px solid #eeeeee;
+padding-top: 40px;
+margin-top: 26px;
+}
+
+
+.card-img {
+  width: 100%;
+  max-width: 392px;
+  margin-right: 0px;
+}
+
+.content-image {
+  object-fit: cover;
+  width: 100%;
+  max-width: 392px
+}
+.card-info {
+  width: 100%;
+  max-width: 392px;
+}
+
+.card-info-head h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.card-tags {
+  margin-top: 15px;
+}
+
+.card-info-meta {
+  margin-top: 22px;
+}
+
+.card-info-text {
+  margin-top: 27px;
+}
+
+.right-info {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 425px;
+  width: 100%;
+}
+
+.mailing-form {
+  margin-top: 36px;
+}
+
+.article-box {
+  width: 100%;
+  margin-top: 55px;
+}
+
+.our-goods-card-container {
+  flex-wrap: wrap;
+}
+
+.our-goods-card {
+  width: 47.9%;
+  max-width: 335px;
+}
+
+.our-goods-card:nth-child(2n+2){
+  margin-left: 4.2%;
+}
+
+.our-goods-card:nth-child(2n+1) {
+  margin-left: 0%;
+}
