@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-  background-image: url("../img/banner-mobile.jpg");
+  background-image: url("../funmode/main-back.jpg");
   background-size: cover;
   background-position: 30% 0%;
   box-sizing: border-box;
@@ -39,7 +39,7 @@ body {
 }
 
 .message {
-  font-size: 26px;
+  font-size: 40px;
   
   margin-top: 40px;
   margin-bottom: 0px;

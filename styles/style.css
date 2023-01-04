@@ -28,7 +28,7 @@ a {
   justify-content: center;
   position: relative;
 
-  background-image: url("../img/banner-bg.jpg");
+  background-image: url("../funmode/main-back.jpg");
   background-size: cover;
 
   padding-top: 28px;
@@ -36,6 +36,17 @@ a {
   padding-right: 14.75%;
   padding-bottom: 145px;
   width: auto;
+}
+
+.logo-text {
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.red {
+  color: rgb(184, 67, 67);
 }
 
 .header::after,

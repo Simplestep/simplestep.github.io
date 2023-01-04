@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-  background-image: url("../img/banner-bg-tablet.jpg");
+  background-image: url("../funmode/main-back.jpg");
   background-size: cover;
   background-position: 30% 0%;
   box-sizing: border-box;
@@ -148,6 +148,8 @@ margin-top: 26px;
   width: 47.9%;
   max-width: 335px;
 }
+
+
 
 .our-goods-card:nth-child(2n+2){
   margin-left: 4.2%;
