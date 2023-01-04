@@ -3,12 +3,26 @@ body {
   max-width: 425px;
 }
 
+.header-top {
+  flex-direction: column;
+}
+
+.logo {
+  order: 2;
+  width: 100%;
+  max-width: 270px;
+  margin-top: 120px;
+}
+
 .menu {
   display: none;
 }
 
 .hamb-menu {
   display: flex;
+  position: relative;
+  order: 1;
+  align-self: end;
 }
 
 .header {
@@ -16,7 +30,7 @@ body {
   background-size: cover;
   background-position: 30% 0%;
   box-sizing: border-box;
-  padding-top: 45px;
+  padding-top: 30px;
   padding-left: 4.55%;
   padding-right: 4.55%;
   padding-bottom: 122px;
@@ -25,13 +39,13 @@ body {
 }
 
 .message {
-  font-size: 40px;
+  font-size: 26px;
   
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 0px;
 
-  width: 88%;
-  max-width: 610px;
+  width: 100%;
+  max-width: 280px;
 }
 
 .trend-cards-row {
@@ -145,15 +159,29 @@ margin-top: 26px;
 
 .our-goods-card-container {
   flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 330px;
+  
 }
 
 .our-goods-card {
-  width: 47.9%;
-  max-width: 335px;
+  width: 100%;
+  max-width: 425px;
+}
+
+.our-goods-card-image {
+  width: 100%;
+  max-width: 285px;
+}
+
+.our-goods-card-picture {
+  margin: auto;
+  width: 87%;
+  max-width: 285px;
 }
 
 .our-goods-card:nth-child(2n+2){
-  margin-left: 4.2%;
+  margin-left: 0%;
 }
 
 .our-goods-card:nth-child(2n+1) {
