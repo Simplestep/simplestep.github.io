@@ -163,6 +163,7 @@ a {
 
 .trend-card-image {
   max-width: 100%;
+  object-fit: cover;
 }
 
 .trend-card-header {
